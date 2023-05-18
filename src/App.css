@@ -97,7 +97,7 @@
 }
 
 .orange_gradient {
-  @apply bg-gradient-to-r from-blue-500 via-black to-sky-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-t from-red-500 via-black to-red-200 bg-clip-text text-transparent;
 }
 
 .desc {
