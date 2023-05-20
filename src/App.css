@@ -99,6 +99,9 @@
 .orange_gradient {
   @apply bg-gradient-to-t from-red-500 via-black to-red-200 bg-clip-text text-transparent;
 }
+.second_gradient {
+  @apply bg-gradient-to-tl from-rose-700 via-rose-950 to-red-200 bg-clip-text text-transparent;
+}
 
 .desc {
   @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
