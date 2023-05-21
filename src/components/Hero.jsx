@@ -17,9 +17,9 @@ const Hero = () => {
                </button> */}
                <button
                type="button"
-               onClick={() => window.open('https://github.com/mackgrissom')}
-               className='black_btn'>
-               Support The Developer
+               onClick={() => window.open('https://www.mackgrissom.io')}
+               className='black_btn text-rose-700 hover:text-red-700 font-bold '>
+              Support The Developer
                </button>
         </nav>
        
@@ -30,10 +30,8 @@ const Hero = () => {
       {/* <img src='src/assets/sumorize.svg' alt='logo' className='w-28 h-28' /> */}
 
 <div className="flex items-center justify-center mt-5">
-      <button className="black_btn mr-4">
-        Join The Waitlist
-      </button>
-      <a href="https://github.com" className="text-blue-500 hover:text-blue-700 font-bold">
+      
+      <a href="https://github.com/MackGrissom/Sumorize" className="text-rose-700 hover:text-red-700 font-bold black_btn">
         See Code On GitHub
       </a>
     </div>
