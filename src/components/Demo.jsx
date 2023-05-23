@@ -59,7 +59,14 @@ const Demo = () => {
   };
 
   return (
-    <section className='mt-12 w-full max-w-xl'>
+    
+    <section className='mt-5 w-full max-w-xl'>
+      <h3 className='pt-5 italic text-neutral-400 desc !text-sm mb-2 '> Try A Demo Below & Join Our Waitlist </h3>
+      <form className="launchlist-form flex p-2 gap-2" action="https://getlaunchlist.com/s/aKsyMw" method="POST">
+    
+    <input name="email" type="email" className='url_input'placeholder="Enter Your Email"/>
+    <button type="submit" className='black_btn w-[110%]'>Sign Up</button>
+</form>
       {/* Search */}
       <div className='flex flex-col w-full gap-2'>
         <form
@@ -118,7 +125,7 @@ const Demo = () => {
           <img src={loader} alt='loader' className='w-20 h-20 object-contain' />
         ) : error ? (
           <p className='font-inter font-bold text-black text-center'>
-            Well, that wasn't supposed to happen...
+            Well, that was not supposed to happen...
             <br />
             <span className='font-satoshi font-normal text-gray-700'>
               {error?.data?.error}
